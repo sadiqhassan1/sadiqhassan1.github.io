@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center; 
+    z-index: 100;
+}
+ .logo{
+    font-size: 2em;
+    color: gray ;
+    cursor: default;
+ }
+ .navigation a{
+    font-size: 1.1em ;
+    color: gray;
+    text-decoration: none;
+    margin-right:40px;
+    font-weight: 500;
+    transition: .3s;
+ }
+ .navigation a:hover{
+    color: blueviolet;
+ }
+ .contact {
+   text-align: center;
+   width: 100%;
+ }
+ .container{
+   width: 100%;
+   margin: 0 auto;
+
+ }
+ .container h2{
+   font-size: 36px;
+   margin-bottom: 40px;
+   color: #333;
+ }
+ .contact-wrapper{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   width: 100%;
+
+ }
+ .contact-form{
+   text-align: left;
+   background-color: blueviolet;
+   padding:40px;
+   color: white;
+   border-radius: 30px;
+   margin: 0 30px;
+ }
+ .contact-form h3{
+   font-size: 24px;
+   margin-bottom: 20px;
+  
+ }
+ .form-group{
+   margin-bottom: 20px;
+
+ }
+ input, textarea{
+   width: 100%;
+   padding: 12px;
+   border-radius: 8px;
+   border: none;
+   background-color:white;
+   color: #333;
+
+ }
+ .contact-info{
+   background-color:#d7d2d2;
+   padding: 40px;
+   color: rgb(155, 76, 229);
+   border-radius:30px ;
+   margin: 0 30px ;
+ }
+ .contact-form button{
+   width: 40%;
+   background: none;
+   padding: 10px;
+   border: 2px solid white;
+   color: #e8f0fe;
+ }
+    
+.contact-info .details{
+   text-align: left;
+   margin-bottom: 250px;
+} 
+.contact-info .follow{
+   text-align: left;
+}
+.contact-info h3{
+font-size: large;
+margin-bottom: 15px;
+}
+.contact-info i{
+   margin-right: 5px;
+}
+ .contact-info .follow i{
+   font-size: 30px;
+   color: rgb(155, 76, 229);
+}
+
+ 
